@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="board">
+            <div class="container">
+                <div class="col">
+                    <h3>HOME</h3>
+                    <div id="num-home">0</div>
+                    <div class="adders">
+                        <button class="add" id="add-one-home" onclick="addOneHome()">+1</button>
+                        <button class="add" id="add-two-home" onclick="addTwoHome()">+2</button>
+                        <button class="add" id="add-three-home" onclick="addThreeHome()">+3</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>GUEST</h3>
+                    <div id="num-guest">0</div>
+                    <div class="adders">
+                        <button class="add" id="add-one-guest" onclick="addOneGuest()">+1</button>
+                        <button class="add" id="add-two-guest" onclick="addTwoGuest()">+2</button>
+                        <button class="add" id="add-three-guest" onclick="addThreeGuest()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
